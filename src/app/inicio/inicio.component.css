@@ -1,0 +1,56 @@
+/*estrutura da main e carrosel*/
+main{
+    min-height: 500px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#section-banner{
+    min-height: 400px;
+}
+
+#section-banner img{
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+ 
+
+/*estrutura do card*/
+
+.cartoes-card {
+    max-width: 400px;
+  }
+  
+ 
+mat-grid-list{
+    margin: 10px 0px;
+}
+
+mat-grid-tile{
+    padding: 2px;
+    border-radius: 60px;
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+mat-card-actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+mat-card-actions p {
+     color: red;
+     font-size: 30px;
+}
+
+mat-card img{
+    height: 300px;
+    width: 300px;
+}
